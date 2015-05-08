@@ -1,0 +1,163 @@
+
+/* manageuser.jsp */
+.manauser {
+	width:800px;
+	margin-left:170px;
+}
+
+#manauserope{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#manauserope a{
+	padding: 0px 16px;
+	margin-right:20px;
+	border: solid #38ad5a 1px;
+	border-radius: 5px;
+	-webkit-border-radius: 20;
+	-moz-border-radius: 20;
+	font-size: 20px;
+	font-family: Arial;
+	color: #38ad5a;
+	background: #ffffff;
+}
+#manauserope a:hover{
+	background: #38ad5a;
+    color:#ffffff;
+}
+.tips{
+	width:180px;
+	height:26px;
+	position:absolute;
+	margin-top:-28px;
+	margin-left:160px;
+	display:block;
+	color:#000;
+}
+
+/* 表格样式 */
+#mytable { 
+	width: 800px; 
+	padding: 0; 
+	margin: 0;
+	border-collapse:collapse;
+	cellspacing:0;
+}
+
+.thstyle{ 
+	font: bold 18px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+	color: #fff; 
+	border: 1px solid #63db93; 
+	letter-spacing: 2px; 
+	text-align: center; 
+	background-color:#00b060; 
+}
+.thstyle:hover{ 
+	color: #00b060; 
+	border: 1px solid #00b060; 
+	background-color:#fff; 
+}
+
+.tdstyle {
+	text-align:center;
+	border:1px solid #00b060;
+	background:#fff;
+	font-size:18px; 
+	color:#218457; 
+}
+.tdstyle a{
+	color:#00b060;
+}
+.tdstyle a:hover{
+	color:#3e94d1;
+}
+
+/* viewusercourseinfo.jsp */
+.viewspecuser{
+	width:1140px;
+	margin-top:30px;
+	padding-left:170px;
+}
+
+/* updateuserinfo.jsp 更新用户 */
+.uptuserform{
+	width:500px;
+	height:240px;
+	margin-left:320px;
+	margin-top:60px;
+	border:1px solid #00b060;
+	color:#000;
+	border-radius:5px;
+}
+
+.uptinputbtn{
+	-webkit-border-radius: 20;
+	-moz-border-radius: 20;
+	border-radius: 6px;
+	font-family: Arial;
+	color: #38ad5a;
+	font-size: 20px;
+	background: #ffffff;
+	padding: 0px 16px;
+	margin-left:60px;
+	border: solid #38ad5a 1px;
+}
+.uptinputbtn:hover{
+	background: #38ad5a;
+    color:#ffffff;
+}
+
+/* addnewuser.jsp */
+#adduseform {
+	width:500px;
+	height:360px;
+	margin-left:320px;
+	margin-top:40px;
+	margin-bottom:100px;
+	border:1px solid #00b060;
+	color:#000;
+	border-radius:5px;
+}
+
+.isadmin select{
+	margin-left:100px;
+	margin-top:6px;
+}
+
+
+/* admanacour.jsp */
+#manacourse {
+	padding-left:70px;
+	margin-top:20px;
+}
+
+#myadtable { 
+	width: 1000px; 
+	padding: 0; 
+	margin: 0;
+	border-collapse:collapse;
+	cellspacing:0;
+}
+
+.thadstyle{ 
+	font: bold 18px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+	color: #fff; 
+	border: 1px solid #63db93; 
+	letter-spacing: 2px; 
+	text-align: center; 
+	background-color:#00b060; 
+}
+.thadstyle:hover{ 
+	color: #00b060; 
+	border: 1px solid #00b060; 
+	background-color:#fff; 
+}
+
+.tdadstyle {
+	text-align:center;
+	border:1px solid #00b060;
+	background:#fff;
+	font-size:18px; 
+	color:#218457; 
+}
+

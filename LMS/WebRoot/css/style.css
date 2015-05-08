@@ -1,0 +1,311 @@
+/*用户板块 开始*/
+.mysteve{
+	display:block;
+	background:#3cb04a;
+	width:110px;
+	height:20px;
+	font-size:15px;
+	text-align:center;
+	color:#fff;
+	cursor:pointer;
+}
+.mysteve:hover{
+	background:#1c8b2a;
+}
+.add{
+	width:110px;
+	height:120px;
+}
+.adddiv1{
+	width:110px;
+	height:26px;
+	line-height:30px;
+	background:#3cb04a;
+}
+.adddiv1:hover{
+	background:#73C37E;
+}
+.adddiv1 a{
+	color:#fff;
+}
+.adddiv2{
+	width:110px;
+	height:26px;
+	line-height:30px;
+	background:#1c8b2a;
+}
+.adddiv2:hover{
+	background:#73C37E;
+}
+.adddiv2 a{
+	color:#fff;
+}
+/*用户板块 结束*/
+/*分享课件 开始*/
+.upload{
+	float:right;
+}
+.zipfile{
+	margin:20px 50px 0 0;
+	height: 41px;
+	background: #BA55D3;
+	width: 144px;
+	position:relative;
+	cursor: pointer;
+}
+.zipfile:hover{
+	background:#458B74;
+}
+.zipfile1{
+	text-align:center;
+	padding-top:10px;
+	font-size:17px;
+	font-weight:800;
+	color:#fff;
+}
+.upbtn{
+	width: 144px;
+    height: 41px;
+    font-size: 30px;
+    outline: medium none;
+    position: absolute;
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    opacity:0; 
+    left:0px;
+    top: 0px;
+}
+#submit{
+	width:0px;
+	height:0px;
+	display:none;
+}
+/*分享课件 结束*/
+
+/*注册课程 开始*/
+.btn_sub{
+	float:left;
+	margin:20px 0 0 50px;
+	height: 41px;
+	background: #71C671;
+	width: 144px;
+	position:relative;
+	cursor: pointer;
+	text-align:center;
+	padding-top:0px;
+	font-size:17px;
+	font-weight:800;
+	color:#fff;
+	border:none;
+}
+.btn_sub:hover{
+	background:#458B74;
+}
+.change_btn_dl_div {
+	position:absolute;
+	top:90px;
+	left:100px;
+	width:100%;
+    margin:0 auto;
+}
+.change_btn_div {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+    margin:0 auto;
+}
+.cbox{
+	display:none;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.imagecbox{
+	display:block;
+	height:187px;
+	width:100%;
+	cursor:pointer;
+}
+/*注册课程 结束*/
+
+/*功能面板 结束*/
+.mianban{
+	display:inline;
+	width:300px;
+	height:120px;
+	margin:20px 20px 0 0;
+	text-align: center; 
+	line-height:120px;
+}
+.mianban-div{
+	width:1140px;
+	margin:0 100px;
+}
+.mianban-div a .col-md-2 fa{
+	font-size:36px;
+}
+.mianban-div a{
+	color:#fff;
+	font-weight:bold;
+	font-size:26px;
+}
+.mianban1{
+	background:#73C37E;
+}
+.mianban1:hover{
+	background:#3CB04A;
+}
+.mianban2{
+	background:#828D9A;
+}
+.mianban2:hover{
+	background:#3CB04A;
+}
+.mianban3{
+	background:#4DBA9C;
+}
+.mianban3:hover{
+	background:#3CB04A;
+}
+.mianban4{
+	background:#4DBA9C;
+}
+.mianban4:hover{
+	background:#3CB04A;
+}
+.mianban5{
+	background:#D8923D;
+}
+.mianban5:hover{
+	background:#3CB04A;
+}
+.mianban6{
+	background:#8CBE52;
+}
+.mianban6:hover{
+	background:#3CB04A;
+}
+.mianban7{
+	background:#FF9999;
+}
+.mianban7:hover{
+	background:#3CB04A;
+}
+.mianban8{
+	background:#99CCCC;
+}
+.mianban8:hover{
+	background:#3CB04A;
+}
+.mianban9{
+	background:#FF6666;
+}
+.mianban9:hover{
+	background:#3CB04A;
+}
+/*功能面板 结束*/
+/*下载 评课 开始*/
+.stardiv{
+	display:inline;
+	margin:4px 0 0 15px;
+	float:left;
+}
+.stardiv1{
+	margin:4px 0 0 15px;
+	float:left;
+}
+.btn_dl{
+	color:#fff;
+	font-size:60px;
+}
+
+/*下载 评课 结束*/
+
+/*课程信息 开始*/
+.infodiv{
+	margin:10px 0 0 15px;
+	float:left;
+	font-size:18px;
+}
+.display-inline{
+	display:inline;
+}
+/*课程信息 结束*/
+
+/* 修改密码 开始 */
+
+.chpwdform{
+	width:500px;
+	height:300px;
+	margin-left:320px;
+	margin-top:60px;
+	border:1px solid #53DF00;
+	color:#000;
+	border-radius:5px;
+}
+
+.oldpwd, .newpwd, .newpwdconfirm, .uptname, .uptpwd, .addusername, .addnewpwd, .addnewpwdconfirm, .isadmin{
+	width:340px;
+	height:30px;
+	margin-top:30px;
+	margin-left:80px;
+	font:
+}
+
+.left_head, .uptleft{
+	width:80px;
+	height:30px;
+	position:absolute;
+	line-height:30px;
+	font-family:"Microsoft YaHei"
+}
+
+.right_input{
+	width:260px;
+	height:30px;
+	position:absolute;
+	margin-left:100px;
+}
+
+.opebtn{
+	width:240px;
+	margin-top:40px;
+	margin-left:130px;
+	padding-left:32px;
+	margin-bottom:10px;
+}
+
+.inputbtn{
+	-webkit-border-radius: 20;
+	-moz-border-radius: 20;
+	border-radius: 6px;
+	font-family: Arial;
+	color: #38ad5a;
+	font-size: 20px;
+	background: #ffffff;
+	padding: 0px 16px;
+	margin-right:20px;
+	border: solid #38ad5a 1px;
+}
+.inputbtn:hover{
+	background: #38ad5a;
+    color:#ffffff;
+}
+/* 修改密码 结束 */
+
+/* 学习介绍.jsp */
+#introplayer{
+	width:1270px;
+	height:720px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-360px;
+	margin-left:-635px;
+}
+/* 提示信息样式 */
+.tip{
+	color:red;
+	font-size:22px;
+}

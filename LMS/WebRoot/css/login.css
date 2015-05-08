@@ -1,0 +1,60 @@
+*{padding:0;margin:0;list-style-type:none;}
+
+.main {width:100%; height:100%;margin:0 auto;}
+
+#header {width:90%; height:80px; position:absolute; left:10%; top:3%; font-family:Arial;}
+.title {font-size:46px; color:#3cb04a; font-weight:400; }
+.subtitle {color:#9b9a9a;}
+
+#footer {width:100%; height:40px; position:absolute; margin:0 auto; bottom:0; color:white; background-color:#3cb04a;text-align:center;}
+#footer span{display:block; line-height:40px; }
+
+/* .formcontainer {width:80%; height:70%; margin:0 auto;position:relative; top:100px;border-top:1px solid #3cb04a; border-bottom:1px solid #3cb04a;} */
+.formcontainer {width:1140px; height:500px;position:absolute;top:50%;left:50%;margin-left:-570px;margin-top:-250px;;border-top:1px solid #3cb04a; border-bottom:1px solid #3cb04a;}
+		
+/* 登陆框样式	 */	
+#login {display:block; width:500px; height:300px; margin:0 auto;z-index:10;}
+
+.logincontainer {width:500px; height:320px; position:absolute;top:50%;left:50%;margin-left:-250px;margin-top:-160px; border-bottom:1px solid #3cb04a;}
+.regcontainer {width:500px; height:400px; position:absolute;top:30px;  border-bottom:1px solid #3cb04a;}
+.header {width:500px; height:40px; position:relative;top:10%; background-color:#3cb04a; color:#fff;}
+.header span {display:block; position:absolute; left:45%;top:0%; font-size:20px;line-height:50px;font-family:Arial;}
+
+.username{ position:relative; top:70px; left:100px; height:25px;}
+.inputHead {display:block; float:left; width:80px; height:20px; line-height:20px; margin-right:30px; font-family:"Microsoft YaHei";}
+#input_style, .useropt {width:160px; height:22px; background-color: #fff; border:1px solid #ccc;}
+.pwd1 {position:relative; top:70px; left:100px; height:25px;}
+.pwd {position:relative; top:90px; left:100px; height:25px;}
+.radio {line-height:25px;margin:110px 0 0 0;padding-left:160px;}
+.btn {width:280px;margin-left:110px; padding-top:20px;z-index:100;	}
+.btn button,.btn3 button {width:100px;  cursor:pointer;}
+.btn1,.btn2 {display:block; width:120px; padding:4 0; color: #fff; background: #3cb04a; border: solid #3cb04a 1px;border-radius: 6px;
+		font-family: Arial; font-size: 20px; -webkit-border-radius:6;-moz-border-radius:6;z-index:10;}
+.btn1 {float:left;}
+.btn2 {float:right;}
+.btn1:hover,.btn2:hover {background: #2d9439;}
+/* 登陆框样式end	 */	
+
+
+/* 注册样式 */
+#reg {display:block; width:500px; height:300px; margin:0 auto;z-index:10;}
+.btn3 {width:280px;margin-left:110px;padding-top:20px;}
+.userface {
+	position:relative;
+	margin-top:70px;
+	margin-left:100px;
+}
+#preuserface{
+	width:100px;
+	height:100px;
+	border:1px solid red;	
+	margin-top:10px;
+	margin-left:100px;
+}
+.userimg{
+	width:100px;
+	height:100px;
+}
+/* 注册样式end */
+
+.err {width:300px; height:20px; position:absolute; left:430px; top:410px;line-height:20px; bottom:0;}

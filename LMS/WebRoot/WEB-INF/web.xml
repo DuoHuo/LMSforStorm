@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>	
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+	<servlet-name>dwr-invoker</servlet-name>
+	<servlet-class>uk.ltd.getahead.dwr.DWRServlet</servlet-class>
+	<init-param>
+	  <param-name>debug</param-name>
+	  <param-value>true</param-value>
+	</init-param>
+  </servlet>
+
+  <servlet>
+    <servlet-name>logout</servlet-name>
+    <servlet-class>com.tank.servlet.LogoutServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>check</servlet-name>
+    <servlet-class>com.tank.servlet.CheckServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>register</servlet-name>
+    <servlet-class>com.tank.servlet.RegServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>uploadcourse</servlet-name>
+    <servlet-class>com.tank.servlet.UploadServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>regcourse</servlet-name>
+    <servlet-class>com.tank.servlet.RegCourseServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>proregcourse</servlet-name>
+    <servlet-class>com.tank.servlet.ProRegCourseServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>viewcourse</servlet-name>
+    <servlet-class>com.tank.servlet.ViewCourseServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>proviewcourse</servlet-name>
+    <servlet-class>com.tank.servlet.PlayEngineServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>savenote</servlet-name>
+    <servlet-class>com.tank.servlet.SaveNoteServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>savecoursenote</servlet-name>
+    <servlet-class>com.tank.servlet.SaveCourseNoteServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>updatenote</servlet-name>
+    <servlet-class>com.tank.servlet.UpdateNoteServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>deletenote</servlet-name>
+    <servlet-class>com.tank.servlet.DeleteNoteServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>loadnote</servlet-name>
+    <servlet-class>com.tank.servlet.LoadNoteServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+      <servlet-name>LMSCMIServlet</servlet-name>
+      <servlet-class>com.tank.servlet.LMSCMIServlet</servlet-class>
+        <!-- Load this servlet at server startup time
+      <load-on-startup>5</load-on-startup> -->
+  </servlet>
+  
+   <servlet>
+    <servlet-name>changepwd</servlet-name>
+    <servlet-class>com.tank.servlet.ChangePwdServlet</servlet-class>
+  </servlet>
+ 
+  <servlet>
+    <servlet-name>viewmyinfo</servlet-name>
+    <servlet-class>com.tank.servlet.ViewMyInfoServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>showmycourseinfoservlet</servlet-name>
+    <servlet-class>com.tank.servlet.ShowMyCourseInfoServlet</servlet-class>
+  </servlet>
+  
+<!--   //added by lwq 2014.5.14 -->
+
+  <servlet>
+    <servlet-name>showuserinfoservlet</servlet-name>
+    <servlet-class>com.tank.servlet.ShowUserInfoServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>showcourseinfoservlet</servlet-name>
+    <servlet-class>com.tank.servlet.ShowCourseInfoServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>DelUserServlet</servlet-name>
+    <servlet-class>com.tank.servlet.DelUserServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>addnewuserservlet</servlet-name>
+    <servlet-class>com.tank.servlet.AddNewUserServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>UpdateUserInfoServlet</servlet-name>
+    <servlet-class>com.tank.servlet.UpdateUserInfoServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>FindUpdatedUserInfoServlet</servlet-name>
+    <servlet-class>com.tank.servlet.FindUpdatedUserInfoServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>StuEvaluationScoreServlet</servlet-name>
+    <servlet-class>com.tank.servlet.StuEvaluationScoreServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>MenuServlet</servlet-name>
+    <servlet-class>com.tank.servlet.MenuServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>EvaluateCourseServlet</servlet-name>
+    <servlet-class>com.tank.servlet.EvaluateCourseServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>ProEvaluateCourseServlet</servlet-name>
+    <servlet-class>com.tank.servlet.ProEvaluateCourseServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>ViewUserCourseInfoServlet</servlet-name>
+    <servlet-class>com.tank.servlet.ViewUserCourseInfoServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.tank.servlet.LogoutServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>download</servlet-name>
+    <servlet-class>com.tank.servlet.DownloadServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>statistics</servlet-name>
+    <servlet-class>com.tank.servlet.ShowStatisticsInfoServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>loadallcourse</servlet-name>
+    <servlet-class>com.tank.servlet.LoadAllCourse</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>search</servlet-name>
+    <servlet-class>com.tank.servlet.SearchServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>LoadGroupNoteServlet</servlet-name>
+    <servlet-class>com.tank.servlet.LoadGroupNoteServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>ScreenShotServlet</servlet-name>
+    <servlet-class>com.tank.servlet.ScreenShotServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>UserDiscussServlet</servlet-name>
+    <servlet-class>com.tank.servlet.UserDiscussServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>ContinueServlet</servlet-name>
+    <servlet-class>com.tank.servlet.ContinueServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>FilterCourseServlet</servlet-name>
+    <servlet-class>com.tank.servlet.FilterCourseServlet</servlet-class>
+  </servlet>
+  
+  <!-- mapping -->
+  
+  <servlet-mapping>
+	  <servlet-name>dwr-invoker</servlet-name>
+	  <url-pattern>/dwr/*</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>logout</servlet-name>
+    <url-pattern>/servlet/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>check</servlet-name>
+    <url-pattern>/servlet/Check</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>register</servlet-name>
+    <url-pattern>/servlet/Register</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+    <servlet-name>uploadcourse</servlet-name>
+    <url-pattern>/servlet/UploadCourse</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+    <servlet-name>regcourse</servlet-name>
+    <url-pattern>/servlet/RegCourse</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>proregcourse</servlet-name>
+    <url-pattern>/servlet/ProRegCourse</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>viewcourse</servlet-name>
+    <url-pattern>/servlet/ViewCourse</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>proviewcourse</servlet-name>
+    <url-pattern>/servlet/ProViewCourse</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>savenote</servlet-name>
+    <url-pattern>/servlet/SaveNote</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>savecoursenote</servlet-name>
+    <url-pattern>/servlet/SaveCourseNote</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>updatenote</servlet-name>
+    <url-pattern>/servlet/UpdateNote</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>deletenote</servlet-name>
+    <url-pattern>/servlet/DeleteNote</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>loadnote</servlet-name>
+    <url-pattern>/servlet/LoadNote</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+      <servlet-name>LMSCMIServlet</servlet-name>
+      <url-pattern>/servlet/LMScmi</url-pattern>
+  </servlet-mapping>
+    
+  <servlet-mapping>
+    <servlet-name>changepwd</servlet-name>
+    <url-pattern>/servlet/ChangePwdServlet</url-pattern>
+  </servlet-mapping>
+  
+ <!--  added by lwq 2014.5.14 -->
+  <servlet-mapping>
+    <servlet-name>viewmyinfo</servlet-name>
+    <url-pattern>/servlet/ViewMyInfo</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>showmycourseinfoservlet</servlet-name>
+    <url-pattern>/servlet/ShowMyCourseInfoServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>showuserinfoservlet</servlet-name>
+    <url-pattern>/servlet/ShowUserInfoServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>showcourseinfoservlet</servlet-name>
+    <url-pattern>/servlet/ShowCourseInfoServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>DelUserServlet</servlet-name>
+    <url-pattern>/servlet/DelUserServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>addnewuserservlet</servlet-name>
+    <url-pattern>/servlet/AddNewUserServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>UpdateUserInfoServlet</servlet-name>
+    <url-pattern>/servlet/UpdateUserInfoServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>FindUpdatedUserInfoServlet</servlet-name>
+    <url-pattern>/servlet/FindUpdatedUserInfoServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>StuEvaluationScoreServlet</servlet-name>
+    <url-pattern>/servlet/StuEvaluationScoreServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>MenuServlet</servlet-name>
+    <url-pattern>/servlet/MenuServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>EvaluateCourseServlet</servlet-name>
+    <url-pattern>/servlet/EvaluateCourseServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>ProEvaluateCourseServlet</servlet-name>
+    <url-pattern>/servlet/ProEvaluateCourseServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>ViewUserCourseInfoServlet</servlet-name>
+    <url-pattern>/servlet/ViewUserCourseInfoServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>download</servlet-name>
+    <url-pattern>/servlet/Download</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>statistics</servlet-name>
+    <url-pattern>/servlet/ShowStatisticsInfoServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>loadallcourse</servlet-name>
+    <url-pattern>/servlet/LoadAllCourse</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>search</servlet-name>
+    <url-pattern>/servlet/SearchServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>LoadGroupNoteServlet</servlet-name>
+    <url-pattern>/servlet/LoadGroupNoteServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>UserDiscussServlet</servlet-name>
+    <url-pattern>/servlet/UserDiscussServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>ScreenShotServlet</servlet-name>
+    <url-pattern>/servlet/ScreenShotServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>ContinueServlet</servlet-name>
+    <url-pattern>/servlet/ContinueServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>FilterCourseServlet</servlet-name>
+    <url-pattern>/servlet/FilterCourseServlet</url-pattern>
+  </servlet-mapping>
+  
+  <session-config>
+      <session-timeout>3000</session-timeout>    <!-- 30 minutes -->
+  </session-config>
+    
+</web-app>

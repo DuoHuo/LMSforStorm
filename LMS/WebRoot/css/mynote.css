@@ -1,0 +1,200 @@
+body {margin:0;padding:0;list-style:none;}
+ul,li {padding:0; margin:0; list-style:none;}
+a {text-decoration:none;list-style-type:none;}
+.claer {clear:both;}
+/* 按课程名查询笔记结果显示区 */
+.mod {width:1140px; height:100%; position:absolute; margin-left:-570px; margin-top:20px; left:50%; z-index:500;}
+.mod li {float:left;}
+.groupnotelist {
+	width:360px;
+	height:130px;
+	margin-left:15px;
+	margin-bottom:20px;
+	border:1px solid #2ea7e0;
+	border-radius:5px;
+}
+.groupnotelist:hover {
+	border:1px solid #46c054;
+}
+
+.noteimg {
+	width:64px;
+	height:64px;
+	float:left;
+	margin-top:28px;
+	margin-left:10px;
+	background:url(../images/note/note_64.png);
+}
+.info {
+	width:276px;
+	height:80px;
+	position:absolute;
+	margin-top:10px;
+	margin-left:84px;
+}
+.coursetitle{
+	width:240px;
+	height:25px;
+	padding-left:10px;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	color:#3cb04a;
+	font-size:20px;
+}
+.coursenum{
+	float:left;
+	padding-left:10px;
+	width:100%;
+}
+
+.seedetail{
+	float:left;
+	margin-left:10px;
+	line-height:22px;/*文本上下居中*/
+	color:#46c054;
+	background-color:#fff;
+	font-weight:bold;
+	border-radius:5px;
+	border:1px solid #46c054;
+}
+.seedetail:hover{
+	background-color:#46c054;
+	color:#fff;
+}
+/* 按课程名查询笔记结果显示区end */
+
+
+/* 新建笔记按钮样式 */
+.btn_right {float:left;margin-top:5px;margin-right:150px;}
+.btnStyle{
+	width:104px;
+	height:28px;
+	line-height:22px;/*文本上下居中*/
+	color:#46c054;
+	background-color:#fff;
+	font-weight:bold;
+	border-radius:5px;
+	border:1px solid #46c054;
+}
+.btnStyle:hover{
+	background-color:#46c054;
+	color:#fff;
+}
+
+
+/* 笔记本编辑区 */
+#note_div,#othernote_div{display: none;width:400px;height:340px;left:40%;top:30%;position:fixed;border:1px solid #ffcc99;z-index: 1000;background-color:#e6e6e6;}
+#othernote_div {display:none;width:400px;height:260px;}
+.noteheader{width:398px;height:30px;}
+.notename {display:block; width:100px;height:30px;position:relative;float:left;color:#336699;}
+.grcoursetitle {width:260px;height:30px;position:relative;float:left;text-overflow:ellipsis;overflow:hidden;color:#3cb04a;font-size:20px;}
+.contentarea {width:380px;height:240px;margin-left:10px;margin-top:20px;padding:1px;color:blue;}
+.doarea {width:398px; height:20px;color:red;}
+.option {float:left;margin-left:10px;}
+.doarea button {width:90px;height:28px;float:left;margin-left:40px;line-height:22px;/*文本上下居中*/color:#46c054;background-color:#fff;font-weight:bold;border-radius:5px;border:1px solid #46c054;}
+.doarea button:hover{background-color:#46c054;color:#fff;}
+/* 笔记本编辑区end */
+
+
+/* 笔记区tab */
+#box{width:1140px;}
+#box ul{margin:0;padding:0;list-style:none}
+#tab{height:30px;border-bottom:1px solid #2ea7e0;}
+#tab li{width:80px;text-align:center;background:#ddf2fb;cursor:pointer;color:#2ea7e0;}
+#tab li.on{width:80px;color:#fff;background:#2ea7e0;position:relative;}
+
+#tab_con{width:1140px;height:100%;}
+#tab_con li{display:none}
+#tab_con #tab_con_1{display:block;}
+
+
+
+/* 指定课程提笔记展示区 */
+.detailnotelist, .othernotelist {
+	width:360px;
+	height:100px;
+	float:left;
+	margin-left:15px;
+	margin-top:30px;
+	border:1px solid #2ea7e0;
+	border-radius:5px;
+}
+.otherinfo {
+	width:200px;
+	height:40px;
+	margin-top:4px;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	color:#000;
+	border:1px solid #ddf2fb;
+	border-radius:3px;
+}
+.detailnotelist{display:block;}
+.othernotelist{display:none;}
+.detailnotelist:hover, .othernotelist:hover {
+	border:1px solid #46c054;
+}
+
+.detailnoteimg {
+	width:64px;
+	height:64px;
+	float:left;
+	margin-top:8px;
+	margin-left:6px;
+	background:url(../images/note/pen_64.png);
+}
+.notecontent {
+	width:260px;
+	height:50px;
+	position:absolute;
+	margin-left:74px;
+	margin-top:6px;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	/* white-space:nowrap; */
+	/* word-wrap:break-word; */
+	border:1px solid #ddf2fb;
+	border-radius:3px;
+}
+.blockedit {
+	width:300px;
+	height:30px;
+	font-size:12px;
+	margin-top:72px;
+	color:grey;
+}
+.gs{
+	display:block;
+	margin-left:20px;
+	float:left;
+}
+.gsee{
+	display:block;
+	margin-left:100px;
+	float:left;
+}
+
+/* 显示笔记 */
+#othertexta{
+	width:360px;
+	height:200px;
+	padding-left:6px;
+	padding-right:6px;
+	padding-top:2px;
+	padding-bottom:2px;
+	background-color:#fff;
+	margin-left:20px;
+	margin-top:10px;
+}
+#othertexta button{
+	margin-left:18px;
+	margin-top:8px;
+}
+
+
+
+
+
+
+
+

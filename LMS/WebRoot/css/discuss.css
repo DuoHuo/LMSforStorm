@@ -1,0 +1,400 @@
+body,form{padding:0;margin:0;list-style:none;}
+/* discuss.jsp */
+.retbtn{
+	width:120px;
+	height:40px;
+	background:#3cb04a;
+	font-size:18px;
+	line-height:40px;
+	text-align:center;
+	float:right;
+	margin-right:20px;
+	cursor:pointer;
+	color:#FFF;
+}
+.retbtn:hover{
+	background:#1c8b2a;
+	color:#FFF;
+}
+.askdiv{
+	padding-bottom:10px;
+	margin-right:150px;
+	width:200px;
+	float:right;
+}
+.mod_1{
+	width: 1140px;
+	height: 100%;
+	margin:0 auto;
+}
+.mod_2{
+	width:85%;
+	height:46px;
+	margin-left:150px;
+	margin:0 auto;
+}
+#tab li{float:left;}
+.coursedis {
+	width:540px;
+	height:90px;
+	float:left;
+	padding: 8px;
+	margin-top: 20px;
+	margin-left:20px;
+	color:#000;
+	border:1px solid #61d7a1;
+	border-radius:4px;
+	background-color: #fff;
+}
+.coursedis:hover {
+	color:#343333;
+	border:1px solid #00b060;
+}
+
+.distitle{
+	display:block;
+	width:500px;
+	height:30px;
+	font-size:26px;
+	font-weight:solid;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	margin-bottom:8px;
+	white-space: nowrap;
+}
+
+#tab_con_1 .coursedis form button, #tab_con_2 .coursedis button{
+	width:80px;
+	height:30px;
+	margin-left:20px;
+	border:0;
+	border-radius:3px;
+	color:#2ea7e0;
+}
+#tab_con_1 .coursedis button:hover, #tab_con_2 .coursedis button:hover{
+	color:#fff;
+	background-color:#2ea7e0;
+}
+
+.askbtn{
+	width:230px;
+	height:46px;
+	font-size:20px;
+	line-height:46px;/*文本上下居中*/
+	color:#2ea7e0;
+	background-color:#ddf2fb;
+	font-weight:bold;
+	border-radius:5px;
+	border:0;
+}
+.askbtn:hover{
+	background-color:#2ea7e0;
+	color:#fff;
+}
+
+.recordnum {
+	width:70px;
+	float:left;
+	margin-top:4px;
+}
+
+.controlform {
+	width:100px;
+	float:left;
+	margin-top:4px;
+	margin-left:50px;
+}
+.controlmyform{
+	width:100px;
+	position:absolute;
+	margin-left:140px;
+	margin-top:-30px;
+}
+
+/* askquestion.jsp下的样式 */
+#askdiv{
+	width:600px;
+	height:600px;
+	margin:0 auto;
+}
+
+.coursetitle {
+	width:600px;
+}
+
+#askdiv form select {
+	width:400px;
+	height:26px;
+}
+
+.lefttitle, .leftcontent {
+	float:left;
+	display:block;
+	width:100px;
+	height:30px;
+	line-height:30px;
+	font:18px '微软雅黑';
+}
+
+#askdiv form textarea {
+	float:left;
+	width:400px;
+	height:200px;
+	resize:none; /* 大小不可变 */
+}
+
+.askcontent {
+	clear:both;
+	width:500px;
+	height:200px;
+}
+
+.operation {
+	margin-top:30px;
+	width:600px;
+}
+
+.askquebtn {
+	width:80px;
+	height:36px;
+	border:0;
+	margin-left:260px;
+	border-radius:3px;
+	color:#2ea7e0;
+}
+.askquebtn:hover {
+	background-color:#2ea7e0;
+	color:#fff;
+}
+
+.err {
+	margin:0 auto;
+}
+
+/* precoursedis.jsp页面 */
+
+.precoucontainer{
+	width:100%;
+	height:100%;
+	padding-bottom:10px;
+}
+
+.precourselist{
+	width:700px;
+	height:120px;
+	margin-left:220px;
+	margin-top:10px;
+	border:1px solid #2ea7e0;
+	border-radius:5px;
+}
+
+.asender, .specleft, .cspecanleft {
+	width:160px;
+	height:119px;
+	position:absolute;
+	margin-left:0;
+	margin-top:0;
+	border-right:1px solid #8A9080;
+}
+.asenderimg, .specleft img, .cspecan img{
+	width:48px;
+	height:48px;
+	position:absolute;
+	margin-top:10px;
+	margin-left:56px;
+}
+.asenderimg img{
+	width:48px;
+	height:48px;
+}
+.pqdlsn{
+	display:block;
+	width:160px;
+	position:absolute;
+	margin-top:60px;
+	text-align:center;
+	color:#000;
+	font-size:12px;
+}
+.pqdlt {
+	display:block;
+	width:160px;
+	position:absolute;
+	margin-top:90px;
+	text-align:center;
+	color:#808080;
+	font-size:12px;
+}
+
+.rightcont{
+	width:520px;
+	height:80px;
+	position:absolute;
+	margin-left:180px;
+	margin-top:10px;
+}
+
+.quecont{
+	width:540px;
+	height:30px;
+	color:#000;
+	margin-top:0;
+}
+.queimg{
+	width:20px;
+	height:20px;
+	position:absolute;
+	background:url(../images/user/wendanew.gif) no-repeat 0 -24px;
+	overflow:hidden;
+	margin-top:0px;
+	margin-left:0;
+}
+.quecontdetail{
+	width:480px;
+	height:30px;
+	position:absolute;
+	margin-left:20px;
+	padding-left:10px;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+.quecontdetail:hover{
+	color:#2ea7e0;
+	cursor:pointer;
+}
+
+.latestan{
+	width:540px;
+	height:30px;
+	margin-top:6px;
+}
+.latestimg{
+	width:14px;
+	height:14px;
+	background:url(../images/user/wendanew.gif) no-repeat;
+	overflow:hidden;
+}
+.latestac{
+	width:520px;
+	position:absolute;
+	margin-left:20px;
+	margin-top:-20px;
+}
+.latestasn{
+	width:520px;
+	position:absolute;
+	color:#000;
+	margin-top:6px;
+}
+
+.precouform{
+	width:520px;
+	height:30px;
+	position:absolute;
+	padding-top:2px;
+	padding-left:200px;
+	margin-top:90px;
+	margin-left:160px;
+}
+.precouform button{
+	width:80px;
+	height:22px;
+	line-height:22px;
+	margin-left:20px;
+	border:0;
+	border-radius:3px;
+	color:#2ea7e0;
+}
+.precouform button:hover{
+	color:#fff;
+	background-color:#2ea7e0;
+}
+
+
+/* specoudet.jsp页面 */
+
+#specdet{
+	width: 700px;
+	height: 120px;
+	margin-left: 220px;
+	margin-top: 0;
+	border: 1px solid red;
+	border-radius: 5px;
+}
+#specdet:hover {
+	border: 1px solid #2ea7e0;
+}
+
+.specright, .cspecanright{
+	width:520px;
+	height:110px;
+	position:absolute;
+	margin-top:5px;
+	margin-left:170px;
+	color:#000;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+
+.specancontain {
+	width:1140px;
+	position:absolute;
+	margin-top:130px;
+}
+
+.specanlist{
+	width: 700px;
+	height: 120px;
+	margin-left: 220px;
+	margin-top:20px;
+	border: 1px solid #8A9080;
+	border-radius: 5px;
+}
+.specanlist:hover{
+	border: 1px solid #2ea7e0;
+}
+
+#specaddan {
+	width:700px;
+	height:260px;
+	border-top:1px solid #3cb04a;
+	position:realite;
+	margin-left:220px;
+	margin-top:40px;
+	margin-bottom:100px;
+}
+#specaddan img{
+	width:48px;
+	height:48px;
+	display:block;
+	position:absolute;
+	margin-top:20px;
+	margin-left:30px;
+}
+.addanform{
+	width:500px;
+	height:160px;
+	position:absolute;
+	margin-top:20px;
+	margin-left:100px;
+}
+.addancont{
+	width:500px;
+	height:140px;
+	resize:none;
+}
+.addanbtn{
+	width:60px;
+	height:30px;
+	position:relative;
+	margin-top:10px;
+	margin-left:220px;
+	background-color:rgb(57, 185, 78);
+	color:white;
+	border:none;
+	border:1px solid #3cbo4a;
+}
+.addanbtn:hover{
+	color:rgb(57, 185, 78);
+	background-color:#DBE1DC;
+}
