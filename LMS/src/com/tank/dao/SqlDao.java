@@ -1,15 +1,22 @@
 package com.tank.dao;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.Properties;
 
 public class SqlDao {
 	public Connection conn = null;
 	public ResultSet rs = null;
 	Statement st = null;
+	private String driver = null;
+	private String url = null;
+	private String username = null;
+	private String password = null;
 
 	/**
 	 * @Method SqlDao()
@@ -19,21 +26,26 @@ public class SqlDao {
 	 */
 	public SqlDao() {
 		try {
-//			Class.forName("com.mysql.jdbc.Driver");// 加载驱动
-//			String url ="jdbc:mysql://sqld.duapp.com:4050/PmbwsoRFDKzaXTtJcwAt?useUnicode=true&characterEncoding=utf8";
-//			String userName = "TSwSUQSQdShMia9Y1DCPfWo5";
-//			String passWord = "BAF33APTGCS0pmwmGB4t61NxGNHLbpy0";
-			Class.forName("com.mysql.jdbc.Driver");// 加载驱动
-			String url = "jdbc:mysql://localhost:3306/scorm?useUnicode=true&characterEncoding=utf8";
-			String userName = "root";
-			String passWord = "123456";
-			conn = DriverManager.getConnection(url, userName, passWord);
-			st = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,
-					ResultSet.CONCUR_READ_ONLY);
+			//读取配置文件中的信息
+			Properties prop = new Properties();
+			InputStream in = this.getClass().getResourceAsStream("database.properties");
+			prop.load(in);
+			
+			driver = prop.getProperty("driver");
+			url = prop.getProperty("url");
+			username = prop.getProperty("username");
+			password = prop.getProperty("password");
+			
+			Class.forName(driver);// 加载驱动
+			conn = DriverManager.getConnection(url, username, password);
+			st = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
 		} catch (java.lang.ClassNotFoundException e) {
 			System.err.println("加载驱动器有错误:" + e.getMessage());
 			System.out.print("执行插入有错误:" + e.getMessage());
 		} catch (SQLException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
