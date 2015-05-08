@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/开发包/ADLParser.jar"/>
+	<classpathentry kind="lib" path="D:/开发包/cmidatamodel.jar"/>
+	<classpathentry kind="lib" path="D:/开发包/commons-beanutils-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/开发包/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/开发包/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="D:/开发包/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="D:/开发包/dwr.jar"/>
+	<classpathentry kind="lib" path="D:/开发包/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="D:/开发包/jsmartcom_zh_CN.jar"/>
+	<classpathentry kind="lib" path="D:/开发包/jso.jar"/>
+	<classpathentry kind="lib" path="D:/开发包/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="D:/开发包/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/开发包/mysql-connector-java-5.1.7-bin.jar"/>
+	<classpathentry kind="lib" path="D:/开发包/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="D:/开发包/xerces.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>
