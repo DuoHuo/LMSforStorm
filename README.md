@@ -23,5 +23,5 @@
 ## 修改数据库连接密码
 在`LMS/src/com/tank/dao/database.properties`中修改数据库的连接密码
 
-##声明
+## 声明
 代码的质量还需要提高，会继续迭代。遵循`MIT`开源协议
