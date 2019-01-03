@@ -4,8 +4,8 @@
 ## 介绍
 本作品是中国软件杯2014年参赛作品，详情见[基于SCORM标准的资源学习平台](http://www.cnsoftbei.com/bencandy.php?fid=113&id=1093)。
 ## Coders
-* @[Coder4lb](https://github.com/Coder4lb)
-* @[adolphlwq](https://github.com/adolphlwq)
+* [flyfatty](https://github.com/flyfatty)
+* [AdolphLWQ](https://github.com/adolphlwq)
 
 ## Environment
 ## 系统环境
